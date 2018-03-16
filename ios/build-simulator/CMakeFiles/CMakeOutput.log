@@ -1,0 +1,178 @@
+The target system is: Darwin - 1 - 
+The host system is: Darwin - 17.4.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+=== BUILD TARGET CompilerIdC OF PROJECT CompilerIdC WITH THE DEFAULT CONFIGURATION (Debug) ===
+
+Check dependencies
+
+Write auxiliary files
+write-file /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdC/CompilerIdC.build/Debug-iphonesimulator/CompilerIdC.build/CompilerIdC-project-headers.hmap
+write-file /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdC/CompilerIdC.build/Debug-iphonesimulator/CompilerIdC.build/CompilerIdC-generated-files.hmap
+write-file /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdC/CompilerIdC.build/Debug-iphonesimulator/CompilerIdC.build/CompilerIdC.hmap
+write-file /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdC/CompilerIdC.build/Debug-iphonesimulator/CompilerIdC.build/CompilerIdC-all-target-headers.hmap
+write-file /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdC/CompilerIdC.build/Debug-iphonesimulator/CompilerIdC.build/CompilerIdC-own-target-headers.hmap
+/bin/mkdir -p /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdC/CompilerIdC.build/Debug-iphonesimulator/CompilerIdC.build/Objects-normal/x86_64
+write-file /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdC/CompilerIdC.build/Debug-iphonesimulator/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC.LinkFileList
+write-file /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdC/CompilerIdC.build/Debug-iphonesimulator/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+chmod 0755 /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdC/CompilerIdC.build/Debug-iphonesimulator/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+write-file /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdC/CompilerIdC.build/Debug-iphonesimulator/CompilerIdC.build/CompilerIdC-all-non-framework-target-headers.hmap
+
+Create product structure
+/bin/mkdir -p /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdC/CompilerIdC.xctest
+
+ProcessProductPackaging "" CompilerIdC.build/Debug-iphonesimulator/CompilerIdC.build/CompilerIdC.xctest.xcent
+    cd /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdC
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/radvani/Library/Android/sdk/platform-tools/:/Users/radvani/Library/Android/sdk/build-tools/25.0.0/"
+    
+
+Entitlements:
+
+{
+    "application-identifier" = "UN8MD7234Y.";
+    "keychain-access-groups" =     (
+        "UN8MD7234Y."
+    );
+}
+
+
+    builtin-productPackagingUtility -entitlements -format xml -o /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdC/CompilerIdC.build/Debug-iphonesimulator/CompilerIdC.build/CompilerIdC.xctest.xcent
+
+CompileC CompilerIdC.build/Debug-iphonesimulator/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.o CMakeCCompilerId.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdC
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/radvani/Library/Android/sdk/platform-tools/:/Users/radvani/Library/Android/sdk/build-tools/25.0.0/"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mios-simulator-version-min=11.2 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -I/Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdC/CompilerIdC.build/Debug-iphonesimulator/CompilerIdC.build/CompilerIdC.hmap -I/Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdC/include -I/Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdC/CompilerIdC.build/Debug-iphonesimulator/CompilerIdC.build/DerivedSources/x86_64 -I/Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdC/CompilerIdC.build/Debug-iphonesimulator/CompilerIdC.build/DerivedSources -F/Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdC -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -MMD -MT dependencies -MF /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdC/CompilerIdC.build/Debug-iphonesimulator/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.d --serialize-diagnostics /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdC/CompilerIdC.build/Debug-iphonesimulator/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.dia -c /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c -o /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdC/CompilerIdC.build/Debug-iphonesimulator/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.o
+
+Ld CompilerIdC.xctest/CompilerIdC normal x86_64
+    cd /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdC
+    export IPHONEOS_DEPLOYMENT_TARGET=11.2
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/radvani/Library/Android/sdk/platform-tools/:/Users/radvani/Library/Android/sdk/build-tools/25.0.0/"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -bundle -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk -L/Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdC -F/Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdC -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -filelist /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdC/CompilerIdC.build/Debug-iphonesimulator/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC.LinkFileList -mios-simulator-version-min=11.2 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdC/CompilerIdC.build/Debug-iphonesimulator/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC_lto.o -Xlinker -objc_abi_version -Xlinker 2 -framework XCTest -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __entitlements -Xlinker /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdC/CompilerIdC.build/Debug-iphonesimulator/CompilerIdC.build/CompilerIdC.xctest.xcent -Xlinker -dependency_info -Xlinker /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdC/CompilerIdC.build/Debug-iphonesimulator/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC_dependency_info.dat -o /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdC/CompilerIdC.xctest/CompilerIdC
+
+GenerateDSYMFile CompilerIdC.xctest.dSYM CompilerIdC.xctest/CompilerIdC
+    cd /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdC
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/radvani/Library/Android/sdk/platform-tools/:/Users/radvani/Library/Android/sdk/build-tools/25.0.0/"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdC/CompilerIdC.xctest/CompilerIdC -o /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdC/CompilerIdC.xctest.dSYM
+
+PhaseScriptExecution Run\ Script CompilerIdC.build/Debug-iphonesimulator/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+    cd /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdC
+    /bin/sh -c /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdC/CompilerIdC.build/Debug-iphonesimulator/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+CURRENT_ARCH=x86_64
+
+Touch CompilerIdC.xctest
+    cd /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdC
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/radvani/Library/Android/sdk/platform-tools/:/Users/radvani/Library/Android/sdk/build-tools/25.0.0/"
+    /usr/bin/touch -c /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdC/CompilerIdC.xctest
+
+CodeSign CompilerIdC.xctest
+    cd /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdC
+    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/radvani/Library/Android/sdk/platform-tools/:/Users/radvani/Library/Android/sdk/build-tools/25.0.0/"
+    
+Signing Identity:     "-"
+
+    /usr/bin/codesign --force --sign - --timestamp=none /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdC/CompilerIdC.xctest
+
+** BUILD SUCCEEDED **
+
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.xctest/CompilerIdC"
+
+The C compiler identification is AppleClang, found in "/Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdC/CompilerIdC.xctest/CompilerIdC"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+=== BUILD TARGET CompilerIdCXX OF PROJECT CompilerIdCXX WITH THE DEFAULT CONFIGURATION (Debug) ===
+
+Check dependencies
+
+Write auxiliary files
+write-file /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap
+write-file /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/CompilerIdCXX.hmap
+write-file /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/CompilerIdCXX-all-non-framework-target-headers.hmap
+write-file /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap
+write-file /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+chmod 0755 /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+write-file /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap
+write-file /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap
+/bin/mkdir -p /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/Objects-normal/x86_64
+write-file /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX.LinkFileList
+
+Create product structure
+/bin/mkdir -p /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdCXX/CompilerIdCXX.xctest
+
+ProcessProductPackaging "" CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/CompilerIdCXX.xctest.xcent
+    cd /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdCXX
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/radvani/Library/Android/sdk/platform-tools/:/Users/radvani/Library/Android/sdk/build-tools/25.0.0/"
+    
+
+Entitlements:
+
+{
+    "application-identifier" = "UN8MD7234Y.";
+    "keychain-access-groups" =     (
+        "UN8MD7234Y."
+    );
+}
+
+
+    builtin-productPackagingUtility -entitlements -format xml -o /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/CompilerIdCXX.xctest.xcent
+
+CompileC CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.o CMakeCXXCompilerId.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdCXX
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/radvani/Library/Android/sdk/platform-tools/:/Users/radvani/Library/Android/sdk/build-tools/25.0.0/"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mios-simulator-version-min=11.2 -g -fvisibility-inlines-hidden -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -I/Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/CompilerIdCXX.hmap -I/Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdCXX/include -I/Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/DerivedSources/x86_64 -I/Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/DerivedSources -F/Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdCXX -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -MMD -MT dependencies -MF /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.d --serialize-diagnostics /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.dia -c /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp -o /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.o
+
+Ld CompilerIdCXX.xctest/CompilerIdCXX normal x86_64
+    cd /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdCXX
+    export IPHONEOS_DEPLOYMENT_TARGET=11.2
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/radvani/Library/Android/sdk/platform-tools/:/Users/radvani/Library/Android/sdk/build-tools/25.0.0/"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -bundle -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk -L/Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdCXX -F/Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdCXX -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -filelist /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX.LinkFileList -mios-simulator-version-min=11.2 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX_lto.o -Xlinker -objc_abi_version -Xlinker 2 -framework XCTest -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __entitlements -Xlinker /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/CompilerIdCXX.xctest.xcent -Xlinker -dependency_info -Xlinker /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX_dependency_info.dat -o /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdCXX/CompilerIdCXX.xctest/CompilerIdCXX
+
+GenerateDSYMFile CompilerIdCXX.xctest.dSYM CompilerIdCXX.xctest/CompilerIdCXX
+    cd /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdCXX
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/radvani/Library/Android/sdk/platform-tools/:/Users/radvani/Library/Android/sdk/build-tools/25.0.0/"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdCXX/CompilerIdCXX.xctest/CompilerIdCXX -o /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdCXX/CompilerIdCXX.xctest.dSYM
+
+PhaseScriptExecution Run\ Script CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+    cd /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdCXX
+    /bin/sh -c /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphonesimulator/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+CURRENT_ARCH=x86_64
+
+Touch CompilerIdCXX.xctest
+    cd /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdCXX
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/radvani/Library/Android/sdk/platform-tools/:/Users/radvani/Library/Android/sdk/build-tools/25.0.0/"
+    /usr/bin/touch -c /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdCXX/CompilerIdCXX.xctest
+
+CodeSign CompilerIdCXX.xctest
+    cd /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdCXX
+    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/radvani/Library/Android/sdk/platform-tools/:/Users/radvani/Library/Android/sdk/build-tools/25.0.0/"
+    
+Signing Identity:     "-"
+
+    /usr/bin/codesign --force --sign - --timestamp=none /Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdCXX/CompilerIdCXX.xctest
+
+** BUILD SUCCEEDED **
+
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.xctest/CompilerIdCXX"
+
+The CXX compiler identification is AppleClang, found in "/Users/radvani/Source/ViroFreetype/ios/build-simulator/CMakeFiles/3.10.2/CompilerIdCXX/CompilerIdCXX.xctest/CompilerIdCXX"
+
