@@ -17,7 +17,16 @@
     
 For simulator, run the simulator command instead for step 3:
     
+```
 cmake -D IOS_PLATFORM=SIMULATOR -G Xcode ../freetype-2.9
+```
+
+For mac, do the except for step 3:
+
+```
+cmake -G Xcode ../freetype-2.9
+```
+And ignore the remaining steps, just build. Check the Products group for the output libs.
     
 5. Generate headers:
     1. cd into bullet3-2.87
@@ -25,3 +34,4 @@ cmake -D IOS_PLATFORM=SIMULATOR -G Xcode ../freetype-2.9
     3. make
     4. make install
     5. The headers will be in /usr/local/include/bullet
+    
