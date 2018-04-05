@@ -1,0 +1,1505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		3F7F4634B9B84161B87C137A /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 020222826483444BBFAF611E /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				C0CABA12330D4F168DC55E0B /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				912DF89E32D24CD1988D42C5 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		7D294E7A9B124F49A79A6DE7 /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 41499103FDC34225A2D5BA7A /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				C8513E8151F74ADFAF581399 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				AC4E1BF94FAE412BAE361C46 /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		C7F7760BFF644622BD2966E3 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9EF662341D774F11AE52C208 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				0C0FF286DAB94F448FCC3825 /* CMake Rules */,
+			);
+			dependencies = (
+				9D4817709D214017B7FE2497 /* PBXTargetDependency */,
+				FE8E3E2024B642ADA0A1D66A /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		C8182499DA6A4D7C98D92252 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D78B766B9154469F8AC28350 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				C521E92857D945E284179001 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		F550D9BC3C8D4F76B4A99EEF /* dist */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B9F93E65E9CB4634ABB7006C /* Build configuration list for PBXAggregateTarget "dist" */;
+			buildPhases = (
+				04B1A8E3551843D59BE5599E /* CMake Rules */,
+			);
+			dependencies = (
+				3228C4EC3E114A78977D989A /* PBXTargetDependency */,
+			);
+			name = dist;
+			productName = dist;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0077FFCDF2C24324A44A2653 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/psaux.h */ = {isa = PBXBuildFile; fileRef = 85363D397D3F4CF39D9936C9 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/psaux.h */; };
+		012A3F8C0312482FBE91C74B /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftrender.h */ = {isa = PBXBuildFile; fileRef = C44F30E897904573825D02B2 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftrender.h */; };
+		04A9C94A9B784D969F89FDD8 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftcid.h */ = {isa = PBXBuildFile; fileRef = 0DCF169BCA504B0AAA07CFCD /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftcid.h */; };
+		06BEB2C7DA6B406EAEDE68A1 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftstroke.c */ = {isa = PBXBuildFile; fileRef = E4428D80B9AD4EFCBA0177E9 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftstroke.c */; };
+		0C06E00890A14B808C84ED26 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftbitmap.c */ = {isa = PBXBuildFile; fileRef = F88BD0CAAC5A457783F0136A /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftbitmap.c */; };
+		0C2C41DD80274273A7EE989D /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftsystem.c */ = {isa = PBXBuildFile; fileRef = C19CC703DD7D47DBA28627AA /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftsystem.c */; };
+		0E7B174491EA4FE1A56A037E /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/pcf/pcf.c */ = {isa = PBXBuildFile; fileRef = 14591D921DCD44B6A2A397EE /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/pcf/pcf.c */; };
+		149BF45219DD46129F1F8551 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/ftserv.h */ = {isa = PBXBuildFile; fileRef = CDF4A068CA2D493590179DC7 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/ftserv.h */; };
+		17CA98C118B146718FA03F8B /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/config/ftstdlib.h */ = {isa = PBXBuildFile; fileRef = B8355A28A1044A4FAA935607 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/config/ftstdlib.h */; };
+		1B271074126143B2B2A8CC32 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftdebug.c */ = {isa = PBXBuildFile; fileRef = B80F345E983843FB849D5AA8 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftdebug.c */; };
+		1DB4C75A3ADB43DFAC1CEEFD /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/type42/type42.c */ = {isa = PBXBuildFile; fileRef = 06F2D7F13E744AE984999D6D /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/type42/type42.c */; };
+		1FCA935A55AD4215A574FEC0 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftwinfnt.h */ = {isa = PBXBuildFile; fileRef = 920C67EE956449E9A663B0D5 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftwinfnt.h */; };
+		21B700D117DD40CB94944158 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/fterrdef.h */ = {isa = PBXBuildFile; fileRef = 4D31AB6FD7384A28A1A888F8 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/fterrdef.h */; };
+		2453AD31B88743B095E15788 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/autohint.h */ = {isa = PBXBuildFile; fileRef = 5EBB7D594D224669BD034E24 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/autohint.h */; };
+		24C84DF92B8E43C99E81D3E4 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftglyph.h */ = {isa = PBXBuildFile; fileRef = 5F4FCF408B444741AFF3E445 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftglyph.h */; };
+		27037790546E4ABB8F2306B7 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftpfr.h */ = {isa = PBXBuildFile; fileRef = 13D0E76BE0A64FB8B7D77A49 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftpfr.h */; };
+		27742540BB6747A783343ED5 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 985621BF5EAF4365A7927E54 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/CMakeLists.txt */; };
+		2A7C0FAEE5BA4BDEB337F67A /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/tttags.h */ = {isa = PBXBuildFile; fileRef = 2513211BFF3A4129A2BB0B8B /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/tttags.h */; };
+		2BE30739D5964701A135236E /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/tttypes.h */ = {isa = PBXBuildFile; fileRef = 3F5D8834A1FD41388C553D5B /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/tttypes.h */; };
+		2DDA6A00814B486D8D8BF731 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/fttrace.h */ = {isa = PBXBuildFile; fileRef = 5E08FE0F4464412AB97A268A /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/fttrace.h */; };
+		3193936CF2D14B85AFBBAFA6 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftmm.h */ = {isa = PBXBuildFile; fileRef = 9D0D39EE58FC4D7C9D60220F /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftmm.h */; };
+		354D4D57EDD44EF0ACD79CBA /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/tttables.h */ = {isa = PBXBuildFile; fileRef = 25D3F89485674BC2B03F49BC /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/tttables.h */; };
+		3DF6F2EA81D24149AA21BC62 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/sfnt/sfnt.c */ = {isa = PBXBuildFile; fileRef = CF4311D3DA964B0CB38D8FCC /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/sfnt/sfnt.c */; };
+		40CD4C2ED5B14CE0ADD05109 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/config/ftoption.h */ = {isa = PBXBuildFile; fileRef = 30B74A98CF9442CABBD5E5A9 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/config/ftoption.h */; };
+		41ABD68839274B69B28B3FDC /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftfntfmt.h */ = {isa = PBXBuildFile; fileRef = CA960C60CEE9463EB8246EEA /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftfntfmt.h */; };
+		42775877569E4073A1D6E13B /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/gzip/ftgzip.c */ = {isa = PBXBuildFile; fileRef = 8EDF8280FEC04957896D5A05 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/gzip/ftgzip.c */; };
+		4D80CCBC2C31404AB6A20282 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/config/ftmodule.h */ = {isa = PBXBuildFile; fileRef = 1ACCE2024C94462595233561 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/config/ftmodule.h */; };
+		4FBBB589F6144289BFB71C0B /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftbdf.c */ = {isa = PBXBuildFile; fileRef = DC929E8A54D248009ECFE4FB /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftbdf.c */; };
+		511701142755424FB1744EF0 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/cid/type1cid.c */ = {isa = PBXBuildFile; fileRef = 44C83FFFC9BC4FD7979CC224 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/cid/type1cid.c */; };
+		51BB491763C1487E98C91F95 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftbbox.c */ = {isa = PBXBuildFile; fileRef = 1BC110E3C6C543F182B32007 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftbbox.c */; };
+		54C609EAE4EE4A839ADDA1C7 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/cfftypes.h */ = {isa = PBXBuildFile; fileRef = B8AB80CDC73D4717BF4DCF4C /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/cfftypes.h */; };
+		54FF30C6BA7240F5A3B77E37 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/psaux/psaux.c */ = {isa = PBXBuildFile; fileRef = B08BD7EB796E4541B5301173 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/psaux/psaux.c */; };
+		55AA1274C86A47C48914BE70 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/fttype1.c */ = {isa = PBXBuildFile; fileRef = 2814B18B7A7A463DBDACE536 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/fttype1.c */; };
+		570E1CF541D14AE1B160C008 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/ftvalid.h */ = {isa = PBXBuildFile; fileRef = 804ED83EA7FF4D08BA417E25 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/ftvalid.h */; };
+		571EC6A36AEE442988BD4A2B /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/ftmemory.h */ = {isa = PBXBuildFile; fileRef = DAF3CD1AD80D498B87C49D34 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/ftmemory.h */; };
+		57526A7FB1DD4766BF61A334 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftcache.h */ = {isa = PBXBuildFile; fileRef = 28AD97CED02449AFB52375E7 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftcache.h */; };
+		5D5BB7D2188646E1BB2A4EA9 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftlcdfil.c */ = {isa = PBXBuildFile; fileRef = D6B8F1A691A14F8C9A3C02F1 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftlcdfil.c */; };
+		609CBE6ECD7341679E1986F5 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftoutln.h */ = {isa = PBXBuildFile; fileRef = FA1E13EC49E545ABB5D2EF16 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftoutln.h */; };
+		61DC4305011247F9A638E1F6 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftinit.c */ = {isa = PBXBuildFile; fileRef = EEACCD1E0C664867ADE0F589 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftinit.c */; };
+		634F6F05587D48BEAFFBEE45 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/fttypes.h */ = {isa = PBXBuildFile; fileRef = 2545D2F55F6D4F328BA550C6 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/fttypes.h */; };
+		635918FBA6544AA7A49B5C82 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/pshints.h */ = {isa = PBXBuildFile; fileRef = F2DE1853C7B642C99106A70C /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/pshints.h */; };
+		68BAA2D396E84F5780D0926B /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftsynth.h */ = {isa = PBXBuildFile; fileRef = 40A63801B97C4146B936DAA9 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftsynth.h */; };
+		697F6C6E79D84C99BF2A1451 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftlzw.h */ = {isa = PBXBuildFile; fileRef = 83C51BD01A44490B8A307359 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftlzw.h */; };
+		6BD26295E07948A5A09F8DB9 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftgxval.h */ = {isa = PBXBuildFile; fileRef = B02B47392F754543B20F58AD /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftgxval.h */; };
+		6C5776FCF87B4FDEBBF34D55 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftfntfmt.c */ = {isa = PBXBuildFile; fileRef = 9AE5297AFAC1425BA9F2DB59 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftfntfmt.c */; };
+		6CA8BC0C7102422790A3D3A8 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftincrem.h */ = {isa = PBXBuildFile; fileRef = A9D673D539074DBF8C191F28 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftincrem.h */; };
+		6ED39647A00842D38C373C29 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftpatent.c */ = {isa = PBXBuildFile; fileRef = AC15275DE3E24F52BBB3BED8 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftpatent.c */; };
+		6F53B06657F942FFBED6A90E /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/ftcalc.h */ = {isa = PBXBuildFile; fileRef = F0D1B0F9500E48D5A9ADB58F /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/ftcalc.h */; };
+		6FCBDC05EEBE417DA5FC90F7 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/cff/cff.c */ = {isa = PBXBuildFile; fileRef = 7E0B114318E74F3EBE45EF0B /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/cff/cff.c */; };
+		71831387716D49D6BBA90748 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/autofit/autofit.c */ = {isa = PBXBuildFile; fileRef = 91AD7BC839F74B08960C93A8 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/autofit/autofit.c */; };
+		7198E3AA741D450EA833E9AC /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/t1types.h */ = {isa = PBXBuildFile; fileRef = 61AA9E57081D4C0A945C53E6 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/t1types.h */; };
+		75415DB43A694CBE95AFB0A7 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/freetype.h */ = {isa = PBXBuildFile; fileRef = 234CF2F12A9A432998AECA2C /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/freetype.h */; };
+		7887DD013F3D40E9BB03E8E3 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftpfr.c */ = {isa = PBXBuildFile; fileRef = 1D161CC008CA4B62A9C23346 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftpfr.c */; };
+		7CEB6AF3DF98401D9EC8CE76 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/ftdebug.h */ = {isa = PBXBuildFile; fileRef = D7EE6395669349F7874518FF /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/ftdebug.h */; };
+		7D1185561DF54058B58BAC40 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftbitmap.h */ = {isa = PBXBuildFile; fileRef = 11DC6013C687463C8DBB9309 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftbitmap.h */; };
+		80D6E791D1AF4371BEAB5584 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftmodapi.h */ = {isa = PBXBuildFile; fileRef = 9EFB773F180844B48CCC9F40 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftmodapi.h */; };
+		8BA456A74E1E4EEEABAA8ADB /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftgxval.c */ = {isa = PBXBuildFile; fileRef = F4E5C6476796447A8BCAEBD6 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftgxval.c */; };
+		8BAFC5919833465DA7A784E0 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/pfr/pfr.c */ = {isa = PBXBuildFile; fileRef = C033DF0CCA12439EB899E6F6 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/pfr/pfr.c */; };
+		8BB178BC472743018D54811C /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/lzw/ftlzw.c */ = {isa = PBXBuildFile; fileRef = 740908A2F81A45169373B3CB /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/lzw/ftlzw.c */; };
+		8BFFBD820BA94C5A9ED66356 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/fttrigon.h */ = {isa = PBXBuildFile; fileRef = 55CF19F93E654BF9A3094282 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/fttrigon.h */; };
+		8E23DA7C4FFC487EB0362C52 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/raster/raster.c */ = {isa = PBXBuildFile; fileRef = 6B579E74344F48D0B1991553 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/raster/raster.c */; };
+		8E2E18FC1A9F4BD8A887A464 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/ftrfork.h */ = {isa = PBXBuildFile; fileRef = 11AB667EEC8A4559A340CFD1 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/ftrfork.h */; };
+		8FFD7BDF5AE04731BB8C3ADD /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftbbox.h */ = {isa = PBXBuildFile; fileRef = D0DE2969908E4581AA408E16 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftbbox.h */; };
+		927DFBAFCBB74505A3BF993C /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftgasp.h */ = {isa = PBXBuildFile; fileRef = AB09D954FB3C4F1A93B5A970 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftgasp.h */; };
+		97626585777C41798D0D20D7 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/ftdrv.h */ = {isa = PBXBuildFile; fileRef = 87BED0BDC42B4EDBB7C6CED6 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/ftdrv.h */; };
+		9AA0333FD2B248E5BAF9DD44 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/ft2build.h */ = {isa = PBXBuildFile; fileRef = 9B2A901DBFFA4E62A93FBA57 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/ft2build.h */; };
+		9D5A8F887665416AAC7DE040 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftmac.h */ = {isa = PBXBuildFile; fileRef = 2368A548B74249A1BDB4BAD6 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftmac.h */; };
+		9F4FAB54FC194B0AAF2E713E /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/bdf/bdf.c */ = {isa = PBXBuildFile; fileRef = 268F13A1D11F4771A06F2B21 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/bdf/bdf.c */; };
+		A1A92EF27F4D42CEBABA7386 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftotval.c */ = {isa = PBXBuildFile; fileRef = DD1D146C619C42678009C5AF /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftotval.c */; };
+		A233B927D757413486B49856 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/ftpsprop.h */ = {isa = PBXBuildFile; fileRef = 4402533CDFE9450F8D9A903D /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/ftpsprop.h */; };
+		A47F128E20034BBAA13AE561 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftmoderr.h */ = {isa = PBXBuildFile; fileRef = 24921FA72F924C7186F2D553 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftmoderr.h */; };
+		AE822E6A28494D87844826BC /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftchapters.h */ = {isa = PBXBuildFile; fileRef = EC965B4E4743450F87CA2246 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftchapters.h */; };
+		B215C66CE55E41059DEBD14E /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftparams.h */ = {isa = PBXBuildFile; fileRef = E67594DF03B34558ADABE21A /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftparams.h */; };
+		B65083EF052A4E5F88C80505 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/psnames/psnames.c */ = {isa = PBXBuildFile; fileRef = 7FEFAF09E0214CC5A4C8A65F /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/psnames/psnames.c */; };
+		B84D8DDD900F487D8B04365F /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftbase.c */ = {isa = PBXBuildFile; fileRef = B2773503133A466DB8FF6834 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftbase.c */; };
+		B9795B1C5BAA4B02AAB9BCAD /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftsynth.c */ = {isa = PBXBuildFile; fileRef = A4623343DD354FE7BD4A1162 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftsynth.c */; };
+		BB54EA5389B7460CB0E78BCA /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftmm.c */ = {isa = PBXBuildFile; fileRef = B3F9BC480862418D968769AD /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftmm.c */; };
+		BBA006A9B4F44BD08D881668 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftfstype.c */ = {isa = PBXBuildFile; fileRef = BA940291007C44C6BF82BD12 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftfstype.c */; };
+		BE3765141E814C8293B04EA9 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/pshinter/pshinter.c */ = {isa = PBXBuildFile; fileRef = 14289E3C8E834234BC5CC4DC /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/pshinter/pshinter.c */; };
+		BE806F5A2FA04AB798027D49 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftadvanc.h */ = {isa = PBXBuildFile; fileRef = 6CCB60F46509485D906AFA32 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftadvanc.h */; };
+		BEFD6A8178944D01B87422DF /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/internal.h */ = {isa = PBXBuildFile; fileRef = 9C66032CEDD24DB3B47B9E91 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/internal.h */; };
+		C42D9CD564A64088A0705C1F /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/ftstream.h */ = {isa = PBXBuildFile; fileRef = B3C67C801AE141699689AF2D /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/ftstream.h */; };
+		C5023BCB7A1F45D79E090975 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/cache/ftcache.c */ = {isa = PBXBuildFile; fileRef = 1C357453688F48F0B6D29F7D /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/cache/ftcache.c */; };
+		C58CA3B5CCD1427FAD10E0D2 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ttnameid.h */ = {isa = PBXBuildFile; fileRef = 44761FCBD8AA46AAA05CA48E /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ttnameid.h */; };
+		C6C39A0AB97147D7B21C5805 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftdriver.h */ = {isa = PBXBuildFile; fileRef = 26F380213EDD41C99C8FDA6A /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftdriver.h */; };
+		C8A3F60EF07E465FBCCD7C05 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftbdf.h */ = {isa = PBXBuildFile; fileRef = 1D50B18AF25043378A37C989 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftbdf.h */; };
+		C9D04F400D484CFE9F3D2E7F /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftlist.h */ = {isa = PBXBuildFile; fileRef = FB9DCB36D6F043918B9F7955 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftlist.h */; };
+		CA68DCEE71CB4180B6A10EA1 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftsizes.h */ = {isa = PBXBuildFile; fileRef = 8E649DD3813D48A6A38981CF /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftsizes.h */; };
+		CAA64DE41BA14E4D88AA6B38 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/config/ftheader.h */ = {isa = PBXBuildFile; fileRef = 7E5B2E4AFC7E463C9FDAF537 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/config/ftheader.h */; };
+		CBA7C9104EE84C72BD988517 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftstroke.h */ = {isa = PBXBuildFile; fileRef = 2DADA57899E24BDC8B913DAA /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftstroke.h */; };
+		CBAAD52236AF4492AF390237 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/ftpic.h */ = {isa = PBXBuildFile; fileRef = 04304219211C40E48F0D1930 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/ftpic.h */; };
+		CDF2148EDC2C4E539D12B330 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/type1/type1.c */ = {isa = PBXBuildFile; fileRef = 6F8420C226C34266A5660AE4 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/type1/type1.c */; };
+		CF7AE7AB08784D679100FC13 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftlcdfil.h */ = {isa = PBXBuildFile; fileRef = AF0E21145A634564AA6773B8 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftlcdfil.h */; };
+		CF8A7EFAB5C94017A2D44D3D /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftgzip.h */ = {isa = PBXBuildFile; fileRef = ADDA3ADC352F41FCB82003C7 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftgzip.h */; };
+		D2FC13460DBB4C4CBEA7292E /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftwinfnt.c */ = {isa = PBXBuildFile; fileRef = 19A928E585674B11A6BD748E /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftwinfnt.c */; };
+		D5064C72763A408DABDD1F0D /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/cffotypes.h */ = {isa = PBXBuildFile; fileRef = 3915E41896D24F0493B1648E /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/cffotypes.h */; };
+		D634B35A8CCD4680AEFE8F56 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/config/ftconfig.h */ = {isa = PBXBuildFile; fileRef = 51A24B246860404D890934BD /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/config/ftconfig.h */; };
+		DA30A8A554F94D3096C3C724 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/t1tables.h */ = {isa = PBXBuildFile; fileRef = F7B690AF18B64D42ABED89F4 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/t1tables.h */; };
+		DB7BCA6C55984368B4106276 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftgasp.c */ = {isa = PBXBuildFile; fileRef = 1F6FAE568719440689CA7B64 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftgasp.c */; };
+		DF2D8480B4C749A4AF63B0DE /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/fthash.h */ = {isa = PBXBuildFile; fileRef = A13A2FE2D21B44AE955910B7 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/fthash.h */; };
+		E1CEE01580104AB3898E60A7 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/smooth/smooth.c */ = {isa = PBXBuildFile; fileRef = D194FB2860C04DB0A9326EA6 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/smooth/smooth.c */; };
+		E3E02DCCE6EE42C1B77860A4 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftimage.h */ = {isa = PBXBuildFile; fileRef = DC9342672D834D3883353340 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftimage.h */; };
+		E81130A6E35042C4B84A75D7 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/ftobjs.h */ = {isa = PBXBuildFile; fileRef = 232F1DDE03BA4C3C8DB534C4 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/ftobjs.h */; };
+		E98A496AB5154D35850073BD /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/fterrors.h */ = {isa = PBXBuildFile; fileRef = 1A180C7323C44B4C8468F348 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/fterrors.h */; };
+		E9F68C31E6F8465193247F15 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/sfnt.h */ = {isa = PBXBuildFile; fileRef = 42C4315BEFDB421CBEAD3444 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/sfnt.h */; };
+		E9FF9D338875444F9D2307C0 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftotval.h */ = {isa = PBXBuildFile; fileRef = C297D133DF5F44A69F4D84B6 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftotval.h */; };
+		EB834F5E20F145F9A55C1DB9 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftsystem.h */ = {isa = PBXBuildFile; fileRef = B4B83F4B95E94055B7850C7E /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftsystem.h */; };
+		EF1BA80FD1A341DDBA063E5F /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftbzip2.h */ = {isa = PBXBuildFile; fileRef = C33EE07E19C840E397DCA1E7 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftbzip2.h */; };
+		F26E4927DF0C4562A03858BE /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/winfonts/winfnt.c */ = {isa = PBXBuildFile; fileRef = ECFBA37ED9E24FBB980B7B19 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/winfonts/winfnt.c */; };
+		F493B8E55B1D41DD974F66A8 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftcid.c */ = {isa = PBXBuildFile; fileRef = 805A7E9A5988414FA35873CA /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftcid.c */; };
+		F5FA1607F2964D9DA44F763A /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/bzip2/ftbzip2.c */ = {isa = PBXBuildFile; fileRef = C3A8853CE80C4BBEAEBF4BDD /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/bzip2/ftbzip2.c */; };
+		F5FA8DF45B0D426C94905342 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftsnames.h */ = {isa = PBXBuildFile; fileRef = A1DB64197A244C04AC1DA44B /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftsnames.h */; };
+		F64444B7141B46BEBC2D463C /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/truetype/truetype.c */ = {isa = PBXBuildFile; fileRef = 2F961AEB53BD4AEA9E686FC7 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/truetype/truetype.c */; };
+		F676809528C24EC2836B7BD4 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftglyph.c */ = {isa = PBXBuildFile; fileRef = 76A46136493C43F18C77D8CA /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftglyph.c */; };
+		FF545E7E56DC4401AE765253 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/ftgloadr.h */ = {isa = PBXBuildFile; fileRef = D5B00595889D400288040D48 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/ftgloadr.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		3CAF8859238E4A459A72B8A7 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		75BFE75AD60A45DC9FB5AD79 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		A955279095114DBDAA19D93A /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		FBDDAFF2AC024F55936BFB85 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		37A986D094494F5DAFA63589 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 579C0E7E68BE47379D288FF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7F7760BFF644622BD2966E3;
+			remoteInfo = ALL_BUILD;
+		};
+		3969B3B8FCC04D4AA246949B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 579C0E7E68BE47379D288FF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7F7760BFF644622BD2966E3;
+			remoteInfo = ALL_BUILD;
+		};
+		4E864D810EF14F289E66E50B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 579C0E7E68BE47379D288FF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED3A3FDE744D4308BC95D05B;
+			remoteInfo = freetype;
+		};
+		B218F1B54F984EE0A3864515 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 579C0E7E68BE47379D288FF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8182499DA6A4D7C98D92252;
+			remoteInfo = ZERO_CHECK;
+		};
+		C70D44E9FCEC453791E5FD18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 579C0E7E68BE47379D288FF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8182499DA6A4D7C98D92252;
+			remoteInfo = ZERO_CHECK;
+		};
+		DC7398F403AB438C8E2869D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 579C0E7E68BE47379D288FF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8182499DA6A4D7C98D92252;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04304219211C40E48F0D1930 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/ftpic.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftpic.h; path = include/freetype/internal/ftpic.h; sourceTree = SOURCE_ROOT; };
+		06F2D7F13E744AE984999D6D /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/type42/type42.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = type42.c; path = src/type42/type42.c; sourceTree = SOURCE_ROOT; };
+		0DCF169BCA504B0AAA07CFCD /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftcid.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftcid.h; path = include/freetype/ftcid.h; sourceTree = SOURCE_ROOT; };
+		11AB667EEC8A4559A340CFD1 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/ftrfork.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftrfork.h; path = include/freetype/internal/ftrfork.h; sourceTree = SOURCE_ROOT; };
+		11DC6013C687463C8DBB9309 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftbitmap.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftbitmap.h; path = include/freetype/ftbitmap.h; sourceTree = SOURCE_ROOT; };
+		13D0E76BE0A64FB8B7D77A49 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftpfr.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftpfr.h; path = include/freetype/ftpfr.h; sourceTree = SOURCE_ROOT; };
+		14289E3C8E834234BC5CC4DC /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/pshinter/pshinter.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pshinter.c; path = src/pshinter/pshinter.c; sourceTree = SOURCE_ROOT; };
+		14591D921DCD44B6A2A397EE /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/pcf/pcf.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pcf.c; path = src/pcf/pcf.c; sourceTree = SOURCE_ROOT; };
+		19A928E585674B11A6BD748E /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftwinfnt.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftwinfnt.c; path = src/base/ftwinfnt.c; sourceTree = SOURCE_ROOT; };
+		1A180C7323C44B4C8468F348 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/fterrors.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fterrors.h; path = include/freetype/fterrors.h; sourceTree = SOURCE_ROOT; };
+		1ACCE2024C94462595233561 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/config/ftmodule.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftmodule.h; path = include/freetype/config/ftmodule.h; sourceTree = SOURCE_ROOT; };
+		1BC110E3C6C543F182B32007 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftbbox.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftbbox.c; path = src/base/ftbbox.c; sourceTree = SOURCE_ROOT; };
+		1C357453688F48F0B6D29F7D /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/cache/ftcache.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftcache.c; path = src/cache/ftcache.c; sourceTree = SOURCE_ROOT; };
+		1D161CC008CA4B62A9C23346 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftpfr.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftpfr.c; path = src/base/ftpfr.c; sourceTree = SOURCE_ROOT; };
+		1D50B18AF25043378A37C989 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftbdf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftbdf.h; path = include/freetype/ftbdf.h; sourceTree = SOURCE_ROOT; };
+		1F6FAE568719440689CA7B64 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftgasp.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftgasp.c; path = src/base/ftgasp.c; sourceTree = SOURCE_ROOT; };
+		232F1DDE03BA4C3C8DB534C4 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/ftobjs.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftobjs.h; path = include/freetype/internal/ftobjs.h; sourceTree = SOURCE_ROOT; };
+		234CF2F12A9A432998AECA2C /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/freetype.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = freetype.h; path = include/freetype/freetype.h; sourceTree = SOURCE_ROOT; };
+		2368A548B74249A1BDB4BAD6 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftmac.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftmac.h; path = include/freetype/ftmac.h; sourceTree = SOURCE_ROOT; };
+		24921FA72F924C7186F2D553 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftmoderr.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftmoderr.h; path = include/freetype/ftmoderr.h; sourceTree = SOURCE_ROOT; };
+		2513211BFF3A4129A2BB0B8B /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/tttags.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tttags.h; path = include/freetype/tttags.h; sourceTree = SOURCE_ROOT; };
+		2545D2F55F6D4F328BA550C6 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/fttypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fttypes.h; path = include/freetype/fttypes.h; sourceTree = SOURCE_ROOT; };
+		25D3F89485674BC2B03F49BC /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/tttables.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tttables.h; path = include/freetype/tttables.h; sourceTree = SOURCE_ROOT; };
+		268F13A1D11F4771A06F2B21 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/bdf/bdf.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = bdf.c; path = src/bdf/bdf.c; sourceTree = SOURCE_ROOT; };
+		26F380213EDD41C99C8FDA6A /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftdriver.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftdriver.h; path = include/freetype/ftdriver.h; sourceTree = SOURCE_ROOT; };
+		2814B18B7A7A463DBDACE536 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/fttype1.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fttype1.c; path = src/base/fttype1.c; sourceTree = SOURCE_ROOT; };
+		288D12F3F4674364B1345EAB /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		28AD97CED02449AFB52375E7 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftcache.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftcache.h; path = include/freetype/ftcache.h; sourceTree = SOURCE_ROOT; };
+		2DADA57899E24BDC8B913DAA /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftstroke.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftstroke.h; path = include/freetype/ftstroke.h; sourceTree = SOURCE_ROOT; };
+		2F961AEB53BD4AEA9E686FC7 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/truetype/truetype.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = truetype.c; path = src/truetype/truetype.c; sourceTree = SOURCE_ROOT; };
+		30B74A98CF9442CABBD5E5A9 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/config/ftoption.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftoption.h; path = include/freetype/config/ftoption.h; sourceTree = SOURCE_ROOT; };
+		33C066D3A5F54494996F9D52 /* freetype */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libfreetyped.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3915E41896D24F0493B1648E /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/cffotypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cffotypes.h; path = include/freetype/internal/cffotypes.h; sourceTree = SOURCE_ROOT; };
+		3F5D8834A1FD41388C553D5B /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/tttypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tttypes.h; path = include/freetype/internal/tttypes.h; sourceTree = SOURCE_ROOT; };
+		40A63801B97C4146B936DAA9 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftsynth.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftsynth.h; path = include/freetype/ftsynth.h; sourceTree = SOURCE_ROOT; };
+		42C4315BEFDB421CBEAD3444 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/sfnt.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sfnt.h; path = include/freetype/internal/sfnt.h; sourceTree = SOURCE_ROOT; };
+		4402533CDFE9450F8D9A903D /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/ftpsprop.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftpsprop.h; path = include/freetype/internal/ftpsprop.h; sourceTree = SOURCE_ROOT; };
+		44761FCBD8AA46AAA05CA48E /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ttnameid.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ttnameid.h; path = include/freetype/ttnameid.h; sourceTree = SOURCE_ROOT; };
+		44C83FFFC9BC4FD7979CC224 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/cid/type1cid.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = type1cid.c; path = src/cid/type1cid.c; sourceTree = SOURCE_ROOT; };
+		4D31AB6FD7384A28A1A888F8 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/fterrdef.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fterrdef.h; path = include/freetype/fterrdef.h; sourceTree = SOURCE_ROOT; };
+		51A24B246860404D890934BD /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/config/ftconfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftconfig.h; path = include/freetype/config/ftconfig.h; sourceTree = SOURCE_ROOT; };
+		55CF19F93E654BF9A3094282 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/fttrigon.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fttrigon.h; path = include/freetype/fttrigon.h; sourceTree = SOURCE_ROOT; };
+		5E08FE0F4464412AB97A268A /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/fttrace.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fttrace.h; path = include/freetype/internal/fttrace.h; sourceTree = SOURCE_ROOT; };
+		5EBB7D594D224669BD034E24 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/autohint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = autohint.h; path = include/freetype/internal/autohint.h; sourceTree = SOURCE_ROOT; };
+		5F4FCF408B444741AFF3E445 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftglyph.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftglyph.h; path = include/freetype/ftglyph.h; sourceTree = SOURCE_ROOT; };
+		61AA9E57081D4C0A945C53E6 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/t1types.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = t1types.h; path = include/freetype/internal/t1types.h; sourceTree = SOURCE_ROOT; };
+		6B579E74344F48D0B1991553 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/raster/raster.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = raster.c; path = src/raster/raster.c; sourceTree = SOURCE_ROOT; };
+		6CCB60F46509485D906AFA32 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftadvanc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftadvanc.h; path = include/freetype/ftadvanc.h; sourceTree = SOURCE_ROOT; };
+		6F8420C226C34266A5660AE4 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/type1/type1.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = type1.c; path = src/type1/type1.c; sourceTree = SOURCE_ROOT; };
+		740908A2F81A45169373B3CB /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/lzw/ftlzw.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftlzw.c; path = src/lzw/ftlzw.c; sourceTree = SOURCE_ROOT; };
+		76A46136493C43F18C77D8CA /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftglyph.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftglyph.c; path = src/base/ftglyph.c; sourceTree = SOURCE_ROOT; };
+		7E0B114318E74F3EBE45EF0B /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/cff/cff.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cff.c; path = src/cff/cff.c; sourceTree = SOURCE_ROOT; };
+		7E5B2E4AFC7E463C9FDAF537 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/config/ftheader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftheader.h; path = include/freetype/config/ftheader.h; sourceTree = SOURCE_ROOT; };
+		7FEFAF09E0214CC5A4C8A65F /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/psnames/psnames.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = psnames.c; path = src/psnames/psnames.c; sourceTree = SOURCE_ROOT; };
+		804ED83EA7FF4D08BA417E25 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/ftvalid.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftvalid.h; path = include/freetype/internal/ftvalid.h; sourceTree = SOURCE_ROOT; };
+		805A7E9A5988414FA35873CA /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftcid.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftcid.c; path = src/base/ftcid.c; sourceTree = SOURCE_ROOT; };
+		83C51BD01A44490B8A307359 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftlzw.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftlzw.h; path = include/freetype/ftlzw.h; sourceTree = SOURCE_ROOT; };
+		85363D397D3F4CF39D9936C9 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/psaux.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = psaux.h; path = include/freetype/internal/psaux.h; sourceTree = SOURCE_ROOT; };
+		87BED0BDC42B4EDBB7C6CED6 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/ftdrv.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftdrv.h; path = include/freetype/internal/ftdrv.h; sourceTree = SOURCE_ROOT; };
+		8E649DD3813D48A6A38981CF /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftsizes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftsizes.h; path = include/freetype/ftsizes.h; sourceTree = SOURCE_ROOT; };
+		8EDF8280FEC04957896D5A05 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/gzip/ftgzip.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftgzip.c; path = src/gzip/ftgzip.c; sourceTree = SOURCE_ROOT; };
+		91AD7BC839F74B08960C93A8 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/autofit/autofit.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = autofit.c; path = src/autofit/autofit.c; sourceTree = SOURCE_ROOT; };
+		920C67EE956449E9A663B0D5 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftwinfnt.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftwinfnt.h; path = include/freetype/ftwinfnt.h; sourceTree = SOURCE_ROOT; };
+		95E7EEC5C03A495CA47FCC02 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		985621BF5EAF4365A7927E54 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9AE5297AFAC1425BA9F2DB59 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftfntfmt.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftfntfmt.c; path = src/base/ftfntfmt.c; sourceTree = SOURCE_ROOT; };
+		9B2A901DBFFA4E62A93FBA57 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/ft2build.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ft2build.h; path = include/ft2build.h; sourceTree = SOURCE_ROOT; };
+		9C66032CEDD24DB3B47B9E91 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = include/freetype/internal/internal.h; sourceTree = SOURCE_ROOT; };
+		9D0D39EE58FC4D7C9D60220F /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftmm.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftmm.h; path = include/freetype/ftmm.h; sourceTree = SOURCE_ROOT; };
+		9EFB773F180844B48CCC9F40 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftmodapi.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftmodapi.h; path = include/freetype/ftmodapi.h; sourceTree = SOURCE_ROOT; };
+		A13A2FE2D21B44AE955910B7 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/fthash.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fthash.h; path = include/freetype/internal/fthash.h; sourceTree = SOURCE_ROOT; };
+		A1DB64197A244C04AC1DA44B /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftsnames.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftsnames.h; path = include/freetype/ftsnames.h; sourceTree = SOURCE_ROOT; };
+		A4623343DD354FE7BD4A1162 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftsynth.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftsynth.c; path = src/base/ftsynth.c; sourceTree = SOURCE_ROOT; };
+		A9D673D539074DBF8C191F28 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftincrem.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftincrem.h; path = include/freetype/ftincrem.h; sourceTree = SOURCE_ROOT; };
+		AB09D954FB3C4F1A93B5A970 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftgasp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftgasp.h; path = include/freetype/ftgasp.h; sourceTree = SOURCE_ROOT; };
+		AC15275DE3E24F52BBB3BED8 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftpatent.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftpatent.c; path = src/base/ftpatent.c; sourceTree = SOURCE_ROOT; };
+		ADDA3ADC352F41FCB82003C7 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftgzip.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftgzip.h; path = include/freetype/ftgzip.h; sourceTree = SOURCE_ROOT; };
+		AF0E21145A634564AA6773B8 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftlcdfil.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftlcdfil.h; path = include/freetype/ftlcdfil.h; sourceTree = SOURCE_ROOT; };
+		B02B47392F754543B20F58AD /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftgxval.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftgxval.h; path = include/freetype/ftgxval.h; sourceTree = SOURCE_ROOT; };
+		B08BD7EB796E4541B5301173 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/psaux/psaux.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = psaux.c; path = src/psaux/psaux.c; sourceTree = SOURCE_ROOT; };
+		B2773503133A466DB8FF6834 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftbase.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftbase.c; path = src/base/ftbase.c; sourceTree = SOURCE_ROOT; };
+		B3C67C801AE141699689AF2D /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/ftstream.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftstream.h; path = include/freetype/internal/ftstream.h; sourceTree = SOURCE_ROOT; };
+		B3F9BC480862418D968769AD /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftmm.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftmm.c; path = src/base/ftmm.c; sourceTree = SOURCE_ROOT; };
+		B4B83F4B95E94055B7850C7E /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftsystem.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftsystem.h; path = include/freetype/ftsystem.h; sourceTree = SOURCE_ROOT; };
+		B80F345E983843FB849D5AA8 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftdebug.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftdebug.c; path = src/base/ftdebug.c; sourceTree = SOURCE_ROOT; };
+		B8355A28A1044A4FAA935607 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/config/ftstdlib.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftstdlib.h; path = include/freetype/config/ftstdlib.h; sourceTree = SOURCE_ROOT; };
+		B8AB80CDC73D4717BF4DCF4C /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/cfftypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cfftypes.h; path = include/freetype/internal/cfftypes.h; sourceTree = SOURCE_ROOT; };
+		BA940291007C44C6BF82BD12 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftfstype.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftfstype.c; path = src/base/ftfstype.c; sourceTree = SOURCE_ROOT; };
+		C033DF0CCA12439EB899E6F6 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/pfr/pfr.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pfr.c; path = src/pfr/pfr.c; sourceTree = SOURCE_ROOT; };
+		C19CC703DD7D47DBA28627AA /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftsystem.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftsystem.c; path = src/base/ftsystem.c; sourceTree = SOURCE_ROOT; };
+		C297D133DF5F44A69F4D84B6 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftotval.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftotval.h; path = include/freetype/ftotval.h; sourceTree = SOURCE_ROOT; };
+		C33EE07E19C840E397DCA1E7 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftbzip2.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftbzip2.h; path = include/freetype/ftbzip2.h; sourceTree = SOURCE_ROOT; };
+		C3A8853CE80C4BBEAEBF4BDD /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/bzip2/ftbzip2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftbzip2.c; path = src/bzip2/ftbzip2.c; sourceTree = SOURCE_ROOT; };
+		C44F30E897904573825D02B2 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftrender.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftrender.h; path = include/freetype/ftrender.h; sourceTree = SOURCE_ROOT; };
+		C9C1210477C94C989EC5A21D /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CA960C60CEE9463EB8246EEA /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftfntfmt.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftfntfmt.h; path = include/freetype/ftfntfmt.h; sourceTree = SOURCE_ROOT; };
+		CDF4A068CA2D493590179DC7 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/ftserv.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftserv.h; path = include/freetype/internal/ftserv.h; sourceTree = SOURCE_ROOT; };
+		CF4311D3DA964B0CB38D8FCC /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/sfnt/sfnt.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = sfnt.c; path = src/sfnt/sfnt.c; sourceTree = SOURCE_ROOT; };
+		D0DE2969908E4581AA408E16 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftbbox.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftbbox.h; path = include/freetype/ftbbox.h; sourceTree = SOURCE_ROOT; };
+		D194FB2860C04DB0A9326EA6 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/smooth/smooth.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = smooth.c; path = src/smooth/smooth.c; sourceTree = SOURCE_ROOT; };
+		D5B00595889D400288040D48 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/ftgloadr.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftgloadr.h; path = include/freetype/internal/ftgloadr.h; sourceTree = SOURCE_ROOT; };
+		D6B8F1A691A14F8C9A3C02F1 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftlcdfil.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftlcdfil.c; path = src/base/ftlcdfil.c; sourceTree = SOURCE_ROOT; };
+		D7EE6395669349F7874518FF /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/ftdebug.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftdebug.h; path = include/freetype/internal/ftdebug.h; sourceTree = SOURCE_ROOT; };
+		DAF3CD1AD80D498B87C49D34 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/ftmemory.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftmemory.h; path = include/freetype/internal/ftmemory.h; sourceTree = SOURCE_ROOT; };
+		DC929E8A54D248009ECFE4FB /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftbdf.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftbdf.c; path = src/base/ftbdf.c; sourceTree = SOURCE_ROOT; };
+		DC9342672D834D3883353340 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftimage.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftimage.h; path = include/freetype/ftimage.h; sourceTree = SOURCE_ROOT; };
+		DD1D146C619C42678009C5AF /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftotval.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftotval.c; path = src/base/ftotval.c; sourceTree = SOURCE_ROOT; };
+		E4428D80B9AD4EFCBA0177E9 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftstroke.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftstroke.c; path = src/base/ftstroke.c; sourceTree = SOURCE_ROOT; };
+		E67594DF03B34558ADABE21A /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftparams.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftparams.h; path = include/freetype/ftparams.h; sourceTree = SOURCE_ROOT; };
+		EC965B4E4743450F87CA2246 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftchapters.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftchapters.h; path = include/freetype/ftchapters.h; sourceTree = SOURCE_ROOT; };
+		ECFBA37ED9E24FBB980B7B19 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/winfonts/winfnt.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = winfnt.c; path = src/winfonts/winfnt.c; sourceTree = SOURCE_ROOT; };
+		EEACCD1E0C664867ADE0F589 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftinit.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftinit.c; path = src/base/ftinit.c; sourceTree = SOURCE_ROOT; };
+		F0D1B0F9500E48D5A9ADB58F /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/ftcalc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftcalc.h; path = include/freetype/internal/ftcalc.h; sourceTree = SOURCE_ROOT; };
+		F2DE1853C7B642C99106A70C /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/pshints.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pshints.h; path = include/freetype/internal/pshints.h; sourceTree = SOURCE_ROOT; };
+		F4E5C6476796447A8BCAEBD6 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftgxval.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftgxval.c; path = src/base/ftgxval.c; sourceTree = SOURCE_ROOT; };
+		F7B690AF18B64D42ABED89F4 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/t1tables.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = t1tables.h; path = include/freetype/t1tables.h; sourceTree = SOURCE_ROOT; };
+		F88BD0CAAC5A457783F0136A /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftbitmap.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftbitmap.c; path = src/base/ftbitmap.c; sourceTree = SOURCE_ROOT; };
+		FA1E13EC49E545ABB5D2EF16 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftoutln.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftoutln.h; path = include/freetype/ftoutln.h; sourceTree = SOURCE_ROOT; };
+		FB9DCB36D6F043918B9F7955 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftlist.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftlist.h; path = include/freetype/ftlist.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		153DEEC6779A413FBC0B468B /* freetype */ = {
+			isa = PBXGroup;
+			children = (
+				D1B0D5F860D840B4AD1076A0 /* Header Files */,
+				1B063CF87E854AA78B8E1CBD /* Source Files */,
+				985621BF5EAF4365A7927E54 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/CMakeLists.txt */,
+			);
+			name = freetype;
+			sourceTree = "<group>";
+		};
+		1B063CF87E854AA78B8E1CBD /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				91AD7BC839F74B08960C93A8 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/autofit/autofit.c */,
+				B2773503133A466DB8FF6834 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftbase.c */,
+				1BC110E3C6C543F182B32007 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftbbox.c */,
+				DC929E8A54D248009ECFE4FB /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftbdf.c */,
+				F88BD0CAAC5A457783F0136A /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftbitmap.c */,
+				805A7E9A5988414FA35873CA /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftcid.c */,
+				B80F345E983843FB849D5AA8 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftdebug.c */,
+				9AE5297AFAC1425BA9F2DB59 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftfntfmt.c */,
+				BA940291007C44C6BF82BD12 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftfstype.c */,
+				1F6FAE568719440689CA7B64 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftgasp.c */,
+				76A46136493C43F18C77D8CA /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftglyph.c */,
+				F4E5C6476796447A8BCAEBD6 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftgxval.c */,
+				EEACCD1E0C664867ADE0F589 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftinit.c */,
+				D6B8F1A691A14F8C9A3C02F1 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftlcdfil.c */,
+				B3F9BC480862418D968769AD /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftmm.c */,
+				DD1D146C619C42678009C5AF /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftotval.c */,
+				AC15275DE3E24F52BBB3BED8 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftpatent.c */,
+				1D161CC008CA4B62A9C23346 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftpfr.c */,
+				E4428D80B9AD4EFCBA0177E9 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftstroke.c */,
+				A4623343DD354FE7BD4A1162 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftsynth.c */,
+				C19CC703DD7D47DBA28627AA /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftsystem.c */,
+				2814B18B7A7A463DBDACE536 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/fttype1.c */,
+				19A928E585674B11A6BD748E /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftwinfnt.c */,
+				268F13A1D11F4771A06F2B21 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/bdf/bdf.c */,
+				C3A8853CE80C4BBEAEBF4BDD /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/bzip2/ftbzip2.c */,
+				1C357453688F48F0B6D29F7D /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/cache/ftcache.c */,
+				7E0B114318E74F3EBE45EF0B /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/cff/cff.c */,
+				44C83FFFC9BC4FD7979CC224 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/cid/type1cid.c */,
+				8EDF8280FEC04957896D5A05 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/gzip/ftgzip.c */,
+				740908A2F81A45169373B3CB /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/lzw/ftlzw.c */,
+				14591D921DCD44B6A2A397EE /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/pcf/pcf.c */,
+				C033DF0CCA12439EB899E6F6 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/pfr/pfr.c */,
+				B08BD7EB796E4541B5301173 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/psaux/psaux.c */,
+				14289E3C8E834234BC5CC4DC /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/pshinter/pshinter.c */,
+				7FEFAF09E0214CC5A4C8A65F /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/psnames/psnames.c */,
+				6B579E74344F48D0B1991553 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/raster/raster.c */,
+				CF4311D3DA964B0CB38D8FCC /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/sfnt/sfnt.c */,
+				D194FB2860C04DB0A9326EA6 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/smooth/smooth.c */,
+				2F961AEB53BD4AEA9E686FC7 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/truetype/truetype.c */,
+				6F8420C226C34266A5660AE4 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/type1/type1.c */,
+				06F2D7F13E744AE984999D6D /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/type42/type42.c */,
+				ECFBA37ED9E24FBB980B7B19 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/winfonts/winfnt.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		4A9E6429DCAD4CF194FB7637 /* dist */ = {
+			isa = PBXGroup;
+			children = (
+				67FE97F90D254D7583997544 /* CMake Rules */,
+				C9C1210477C94C989EC5A21D /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/CMakeLists.txt */,
+			);
+			name = dist;
+			sourceTree = "<group>";
+		};
+		65F3EF53F30D4A1B9C25CE75 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				F3CF8C5AADF24768AA9E5671 /* CMake Rules */,
+				288D12F3F4674364B1345EAB /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		67FE97F90D254D7583997544 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		94377493333C4C46977F3D1D /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				BC663BB9B34C4FEC9A452C4F /* CMake Rules */,
+				95E7EEC5C03A495CA47FCC02 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		9EB7073429574AC5B5C6F844 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33C066D3A5F54494996F9D52 /* freetype */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC663BB9B34C4FEC9A452C4F /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		D1B0D5F860D840B4AD1076A0 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				51A24B246860404D890934BD /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/config/ftconfig.h */,
+				7E5B2E4AFC7E463C9FDAF537 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/config/ftheader.h */,
+				1ACCE2024C94462595233561 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/config/ftmodule.h */,
+				30B74A98CF9442CABBD5E5A9 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/config/ftoption.h */,
+				B8355A28A1044A4FAA935607 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/config/ftstdlib.h */,
+				234CF2F12A9A432998AECA2C /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/freetype.h */,
+				6CCB60F46509485D906AFA32 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftadvanc.h */,
+				D0DE2969908E4581AA408E16 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftbbox.h */,
+				1D50B18AF25043378A37C989 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftbdf.h */,
+				11DC6013C687463C8DBB9309 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftbitmap.h */,
+				C33EE07E19C840E397DCA1E7 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftbzip2.h */,
+				28AD97CED02449AFB52375E7 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftcache.h */,
+				EC965B4E4743450F87CA2246 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftchapters.h */,
+				0DCF169BCA504B0AAA07CFCD /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftcid.h */,
+				26F380213EDD41C99C8FDA6A /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftdriver.h */,
+				4D31AB6FD7384A28A1A888F8 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/fterrdef.h */,
+				1A180C7323C44B4C8468F348 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/fterrors.h */,
+				CA960C60CEE9463EB8246EEA /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftfntfmt.h */,
+				AB09D954FB3C4F1A93B5A970 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftgasp.h */,
+				5F4FCF408B444741AFF3E445 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftglyph.h */,
+				B02B47392F754543B20F58AD /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftgxval.h */,
+				ADDA3ADC352F41FCB82003C7 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftgzip.h */,
+				DC9342672D834D3883353340 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftimage.h */,
+				A9D673D539074DBF8C191F28 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftincrem.h */,
+				AF0E21145A634564AA6773B8 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftlcdfil.h */,
+				FB9DCB36D6F043918B9F7955 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftlist.h */,
+				83C51BD01A44490B8A307359 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftlzw.h */,
+				2368A548B74249A1BDB4BAD6 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftmac.h */,
+				9D0D39EE58FC4D7C9D60220F /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftmm.h */,
+				9EFB773F180844B48CCC9F40 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftmodapi.h */,
+				24921FA72F924C7186F2D553 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftmoderr.h */,
+				C297D133DF5F44A69F4D84B6 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftotval.h */,
+				FA1E13EC49E545ABB5D2EF16 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftoutln.h */,
+				E67594DF03B34558ADABE21A /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftparams.h */,
+				13D0E76BE0A64FB8B7D77A49 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftpfr.h */,
+				C44F30E897904573825D02B2 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftrender.h */,
+				8E649DD3813D48A6A38981CF /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftsizes.h */,
+				A1DB64197A244C04AC1DA44B /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftsnames.h */,
+				2DADA57899E24BDC8B913DAA /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftstroke.h */,
+				40A63801B97C4146B936DAA9 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftsynth.h */,
+				B4B83F4B95E94055B7850C7E /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftsystem.h */,
+				55CF19F93E654BF9A3094282 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/fttrigon.h */,
+				2545D2F55F6D4F328BA550C6 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/fttypes.h */,
+				920C67EE956449E9A663B0D5 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ftwinfnt.h */,
+				5EBB7D594D224669BD034E24 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/autohint.h */,
+				3915E41896D24F0493B1648E /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/cffotypes.h */,
+				B8AB80CDC73D4717BF4DCF4C /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/cfftypes.h */,
+				F0D1B0F9500E48D5A9ADB58F /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/ftcalc.h */,
+				D7EE6395669349F7874518FF /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/ftdebug.h */,
+				87BED0BDC42B4EDBB7C6CED6 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/ftdrv.h */,
+				D5B00595889D400288040D48 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/ftgloadr.h */,
+				A13A2FE2D21B44AE955910B7 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/fthash.h */,
+				DAF3CD1AD80D498B87C49D34 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/ftmemory.h */,
+				232F1DDE03BA4C3C8DB534C4 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/ftobjs.h */,
+				04304219211C40E48F0D1930 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/ftpic.h */,
+				4402533CDFE9450F8D9A903D /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/ftpsprop.h */,
+				11AB667EEC8A4559A340CFD1 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/ftrfork.h */,
+				CDF4A068CA2D493590179DC7 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/ftserv.h */,
+				B3C67C801AE141699689AF2D /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/ftstream.h */,
+				5E08FE0F4464412AB97A268A /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/fttrace.h */,
+				804ED83EA7FF4D08BA417E25 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/ftvalid.h */,
+				9C66032CEDD24DB3B47B9E91 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/internal.h */,
+				85363D397D3F4CF39D9936C9 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/psaux.h */,
+				F2DE1853C7B642C99106A70C /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/pshints.h */,
+				42C4315BEFDB421CBEAD3444 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/sfnt.h */,
+				61AA9E57081D4C0A945C53E6 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/t1types.h */,
+				3F5D8834A1FD41388C553D5B /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/internal/tttypes.h */,
+				F7B690AF18B64D42ABED89F4 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/t1tables.h */,
+				44761FCBD8AA46AAA05CA48E /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/ttnameid.h */,
+				25D3F89485674BC2B03F49BC /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/tttables.h */,
+				2513211BFF3A4129A2BB0B8B /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/freetype/tttags.h */,
+				9B2A901DBFFA4E62A93FBA57 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include/ft2build.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		D283627196E5445EB09E3E83 = {
+			isa = PBXGroup;
+			children = (
+				4A9E6429DCAD4CF194FB7637 /* dist */,
+				153DEEC6779A413FBC0B468B /* freetype */,
+				65F3EF53F30D4A1B9C25CE75 /* ALL_BUILD */,
+				94377493333C4C46977F3D1D /* ZERO_CHECK */,
+				9EB7073429574AC5B5C6F844 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3CF8C5AADF24768AA9E5671 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED3A3FDE744D4308BC95D05B /* freetype */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBCC7C1941064FC2BF4A7744 /* Build configuration list for PBXNativeTarget "freetype" */;
+			buildPhases = (
+				9B0B1E446251442D9DA873AC /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9A95AF7C4A4458DA48F304F /* PBXTargetDependency */,
+			);
+			name = freetype;
+			productName = freetype;
+			productReference = 33C066D3A5F54494996F9D52 /* freetype */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		579C0E7E68BE47379D288FF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 496E0790212047E6A7C9D64C /* Build configuration list for PBXProject "freetype" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				75BFE75AD60A45DC9FB5AD79 /* Debug */,
+				3CAF8859238E4A459A72B8A7 /* Release */,
+				A955279095114DBDAA19D93A /* MinSizeRel */,
+				FBDDAFF2AC024F55936BFB85 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = D283627196E5445EB09E3E83;
+			projectDirPath = "/Users/radvani/Source/ViroFreetype/ios/freetype-2.9";
+			projectRoot = "";
+			targets = (
+				C7F7760BFF644622BD2966E3 /* ALL_BUILD */,
+				C8182499DA6A4D7C98D92252 /* ZERO_CHECK */,
+				F550D9BC3C8D4F76B4A99EEF /* dist */,
+				ED3A3FDE744D4308BC95D05B /* freetype */,
+				3F7F4634B9B84161B87C137A /* install */,
+				7D294E7A9B124F49A79A6DE7 /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04B1A8E3551843D59BE5599E /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/radvani/Source/ViroFreetype/ios/build-mac -f /Users/radvani/Source/ViroFreetype/ios/build-mac/CMakeScripts/dist_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		0C0FF286DAB94F448FCC3825 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/radvani/Source/ViroFreetype/ios/build-mac -f /Users/radvani/Source/ViroFreetype/ios/build-mac/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		80CA6BE9280B40C3B3008374 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		8FE437BCA4E344FD97A4EE48 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C007E487585D42EEAF209ADB = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C0CABA12330D4F168DC55E0B /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/radvani/Source/ViroFreetype/ios/build-mac -f /Users/radvani/Source/ViroFreetype/ios/build-mac/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		C521E92857D945E284179001 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/radvani/Source/ViroFreetype/ios/build-mac -f /Users/radvani/Source/ViroFreetype/ios/build-mac/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		C8513E8151F74ADFAF581399 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/radvani/Source/ViroFreetype/ios/build-mac -f /Users/radvani/Source/ViroFreetype/ios/build-mac/CMakeScripts/package_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		D187EB4CE78F49E3954C460A = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		E8A5445E5AFE4BC9B136177D = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B0B1E446251442D9DA873AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71831387716D49D6BBA90748 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/autofit/autofit.c */,
+				B84D8DDD900F487D8B04365F /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftbase.c */,
+				51BB491763C1487E98C91F95 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftbbox.c */,
+				4FBBB589F6144289BFB71C0B /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftbdf.c */,
+				0C06E00890A14B808C84ED26 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftbitmap.c */,
+				F493B8E55B1D41DD974F66A8 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftcid.c */,
+				1B271074126143B2B2A8CC32 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftdebug.c */,
+				6C5776FCF87B4FDEBBF34D55 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftfntfmt.c */,
+				BBA006A9B4F44BD08D881668 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftfstype.c */,
+				DB7BCA6C55984368B4106276 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftgasp.c */,
+				F676809528C24EC2836B7BD4 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftglyph.c */,
+				8BA456A74E1E4EEEABAA8ADB /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftgxval.c */,
+				61DC4305011247F9A638E1F6 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftinit.c */,
+				5D5BB7D2188646E1BB2A4EA9 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftlcdfil.c */,
+				BB54EA5389B7460CB0E78BCA /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftmm.c */,
+				A1A92EF27F4D42CEBABA7386 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftotval.c */,
+				6ED39647A00842D38C373C29 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftpatent.c */,
+				7887DD013F3D40E9BB03E8E3 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftpfr.c */,
+				06BEB2C7DA6B406EAEDE68A1 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftstroke.c */,
+				B9795B1C5BAA4B02AAB9BCAD /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftsynth.c */,
+				0C2C41DD80274273A7EE989D /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftsystem.c */,
+				55AA1274C86A47C48914BE70 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/fttype1.c */,
+				D2FC13460DBB4C4CBEA7292E /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/base/ftwinfnt.c */,
+				9F4FAB54FC194B0AAF2E713E /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/bdf/bdf.c */,
+				F5FA1607F2964D9DA44F763A /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/bzip2/ftbzip2.c */,
+				C5023BCB7A1F45D79E090975 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/cache/ftcache.c */,
+				6FCBDC05EEBE417DA5FC90F7 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/cff/cff.c */,
+				511701142755424FB1744EF0 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/cid/type1cid.c */,
+				42775877569E4073A1D6E13B /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/gzip/ftgzip.c */,
+				8BB178BC472743018D54811C /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/lzw/ftlzw.c */,
+				0E7B174491EA4FE1A56A037E /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/pcf/pcf.c */,
+				8BAFC5919833465DA7A784E0 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/pfr/pfr.c */,
+				54FF30C6BA7240F5A3B77E37 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/psaux/psaux.c */,
+				BE3765141E814C8293B04EA9 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/pshinter/pshinter.c */,
+				B65083EF052A4E5F88C80505 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/psnames/psnames.c */,
+				8E23DA7C4FFC487EB0362C52 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/raster/raster.c */,
+				3DF6F2EA81D24149AA21BC62 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/sfnt/sfnt.c */,
+				E1CEE01580104AB3898E60A7 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/smooth/smooth.c */,
+				F64444B7141B46BEBC2D463C /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/truetype/truetype.c */,
+				CDF2148EDC2C4E539D12B330 /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/type1/type1.c */,
+				1DB4C75A3ADB43DFAC1CEEFD /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/type42/type42.c */,
+				F26E4927DF0C4562A03858BE /* /Users/radvani/Source/ViroFreetype/ios/freetype-2.9/src/winfonts/winfnt.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3228C4EC3E114A78977D989A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8182499DA6A4D7C98D92252 /* ZERO_CHECK */;
+			targetProxy = B218F1B54F984EE0A3864515 /* PBXContainerItemProxy */;
+		};
+		912DF89E32D24CD1988D42C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7F7760BFF644622BD2966E3 /* ALL_BUILD */;
+			targetProxy = 3969B3B8FCC04D4AA246949B /* PBXContainerItemProxy */;
+		};
+		9D4817709D214017B7FE2497 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8182499DA6A4D7C98D92252 /* ZERO_CHECK */;
+			targetProxy = C70D44E9FCEC453791E5FD18 /* PBXContainerItemProxy */;
+		};
+		AC4E1BF94FAE412BAE361C46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7F7760BFF644622BD2966E3 /* ALL_BUILD */;
+			targetProxy = 37A986D094494F5DAFA63589 /* PBXContainerItemProxy */;
+		};
+		F9A95AF7C4A4458DA48F304F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8182499DA6A4D7C98D92252 /* ZERO_CHECK */;
+			targetProxy = DC7398F403AB438C8E2869D3 /* PBXContainerItemProxy */;
+		};
+		FE8E3E2024B642ADA0A1D66A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED3A3FDE744D4308BC95D05B /* freetype */;
+			targetProxy = 4E864D810EF14F289E66E50B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		048855801E18455A9E33EBC1 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/radvani/Source/ViroFreetype/ios/build-mac/include","/Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include",/Library/Frameworks/Mono.framework/Headers,/usr/local/Cellar/harfbuzz/1.7.6/include/harfbuzz);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/radvani/Source/ViroFreetype/ios/build-mac";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		05BC951C303848FEAE4FDEA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/radvani/Source/ViroFreetype/ios/build-mac/build";
+			};
+			name = Release;
+		};
+		0ED219744081409796C60D95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/radvani/Source/ViroFreetype/ios/build-mac/include","/Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include",/Library/Frameworks/Mono.framework/Headers,/usr/local/Cellar/harfbuzz/1.7.6/include/harfbuzz);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/radvani/Source/ViroFreetype/ios/build-mac";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		18147C72E8CA48AF902A1287 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/radvani/Source/ViroFreetype/ios/build-mac/build";
+			};
+			name = RelWithDebInfo;
+		};
+		1CDC8EEA69804CB78AC12D57 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FT2_BUILD_LIBRARY);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/radvani/Source/ViroFreetype/ios/build-mac/include","/Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include",/Library/Frameworks/Mono.framework/Headers,/usr/local/Cellar/harfbuzz/1.7.6/include/harfbuzz);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = freetype;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/radvani/Source/ViroFreetype/ios/build-mac";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		2DF7B8839D74415BB8997871 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/radvani/Source/ViroFreetype/ios/build-mac/include","/Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include",/Library/Frameworks/Mono.framework/Headers,/usr/local/Cellar/harfbuzz/1.7.6/include/harfbuzz);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/radvani/Source/ViroFreetype/ios/build-mac";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		31415A2690F14E6F8965BEB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/radvani/Source/ViroFreetype/ios/build-mac/include","/Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include",/Library/Frameworks/Mono.framework/Headers,/usr/local/Cellar/harfbuzz/1.7.6/include/harfbuzz);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/radvani/Source/ViroFreetype/ios/build-mac";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		3150492CCED940C7B1D1D7E4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/radvani/Source/ViroFreetype/ios/build-mac/include","/Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include",/Library/Frameworks/Mono.framework/Headers,/usr/local/Cellar/harfbuzz/1.7.6/include/harfbuzz);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/radvani/Source/ViroFreetype/ios/build-mac";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3252D98CE2D64734BBB99BE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FT2_BUILD_LIBRARY);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/radvani/Source/ViroFreetype/ios/build-mac/include","/Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include",/Library/Frameworks/Mono.framework/Headers,/usr/local/Cellar/harfbuzz/1.7.6/include/harfbuzz);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = dist;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/radvani/Source/ViroFreetype/ios/build-mac";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		32FF7A47143C43C9842449E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/radvani/Source/ViroFreetype/ios/build-mac/include","/Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include",/Library/Frameworks/Mono.framework/Headers,/usr/local/Cellar/harfbuzz/1.7.6/include/harfbuzz);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/radvani/Source/ViroFreetype/ios/build-mac";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		3391E56144FE4EF2A8E41F0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/radvani/Source/ViroFreetype/ios/build-mac/include","/Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include",/Library/Frameworks/Mono.framework/Headers,/usr/local/Cellar/harfbuzz/1.7.6/include/harfbuzz);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/radvani/Source/ViroFreetype/ios/build-mac";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		3D1AEA8FB62C4CB79D5E96FF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/radvani/Source/ViroFreetype/ios/build-mac/include","/Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include",/Library/Frameworks/Mono.framework/Headers,/usr/local/Cellar/harfbuzz/1.7.6/include/harfbuzz);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/radvani/Source/ViroFreetype/ios/build-mac";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		45772D973A4A4CFBAB5D2F8A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FT2_BUILD_LIBRARY);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/radvani/Source/ViroFreetype/ios/build-mac/include","/Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include",/Library/Frameworks/Mono.framework/Headers,/usr/local/Cellar/harfbuzz/1.7.6/include/harfbuzz);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = freetype;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/radvani/Source/ViroFreetype/ios/build-mac";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4CE39B9A648E45B386AB5F77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/radvani/Source/ViroFreetype/ios/build-mac/include","/Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include",/Library/Frameworks/Mono.framework/Headers,/usr/local/Cellar/harfbuzz/1.7.6/include/harfbuzz);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/radvani/Source/ViroFreetype/ios/build-mac";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		5723176CFC8D4A32B1AD22BF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FT2_BUILD_LIBRARY);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/radvani/Source/ViroFreetype/ios/build-mac/include","/Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include",/Library/Frameworks/Mono.framework/Headers,/usr/local/Cellar/harfbuzz/1.7.6/include/harfbuzz);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = dist;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/radvani/Source/ViroFreetype/ios/build-mac";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		63BA081CABB54D55AC5226FC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FT2_BUILD_LIBRARY);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/radvani/Source/ViroFreetype/ios/build-mac/include","/Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include",/Library/Frameworks/Mono.framework/Headers,/usr/local/Cellar/harfbuzz/1.7.6/include/harfbuzz);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = dist;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/radvani/Source/ViroFreetype/ios/build-mac";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		89F0C4210DED49EF96432A88 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/radvani/Source/ViroFreetype/ios/build-mac/include","/Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include",/Library/Frameworks/Mono.framework/Headers,/usr/local/Cellar/harfbuzz/1.7.6/include/harfbuzz);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/radvani/Source/ViroFreetype/ios/build-mac";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		8D41465600704B34B5F63870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/radvani/Source/ViroFreetype/ios/build-mac/build";
+			};
+			name = Debug;
+		};
+		94B99B2CB2E54C87A20B260A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/radvani/Source/ViroFreetype/ios/build-mac/build";
+			};
+			name = MinSizeRel;
+		};
+		97FCE7C5C3674E9DB0AFB061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FT2_BUILD_LIBRARY);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/radvani/Source/ViroFreetype/ios/build-mac/include","/Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include",/Library/Frameworks/Mono.framework/Headers,/usr/local/Cellar/harfbuzz/1.7.6/include/harfbuzz);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = dist;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/radvani/Source/ViroFreetype/ios/build-mac";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		9A8EBBAC028F4113A87BE9FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FT2_BUILD_LIBRARY);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/radvani/Source/ViroFreetype/ios/build-mac/include","/Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include",/Library/Frameworks/Mono.framework/Headers,/usr/local/Cellar/harfbuzz/1.7.6/include/harfbuzz);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = freetype;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/radvani/Source/ViroFreetype/ios/build-mac";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		A90018150B5544ABA5000F79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FT2_BUILD_LIBRARY);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/radvani/Source/ViroFreetype/ios/build-mac/include","/Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include",/Library/Frameworks/Mono.framework/Headers,/usr/local/Cellar/harfbuzz/1.7.6/include/harfbuzz);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = freetyped;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/radvani/Source/ViroFreetype/ios/build-mac";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		AF172B194F7A4ABF9F09532A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/radvani/Source/ViroFreetype/ios/build-mac/include","/Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include",/Library/Frameworks/Mono.framework/Headers,/usr/local/Cellar/harfbuzz/1.7.6/include/harfbuzz);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/radvani/Source/ViroFreetype/ios/build-mac";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		CAED4965BC47448BB4A40C1D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/radvani/Source/ViroFreetype/ios/build-mac/include","/Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include",/Library/Frameworks/Mono.framework/Headers,/usr/local/Cellar/harfbuzz/1.7.6/include/harfbuzz);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/radvani/Source/ViroFreetype/ios/build-mac";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D6E2FB8EE788449EB999A5BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/radvani/Source/ViroFreetype/ios/build-mac/include","/Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include",/Library/Frameworks/Mono.framework/Headers,/usr/local/Cellar/harfbuzz/1.7.6/include/harfbuzz);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/radvani/Source/ViroFreetype/ios/build-mac";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		EFDB330FA7874D7E910D6C63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/radvani/Source/ViroFreetype/ios/build-mac/include","/Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include",/Library/Frameworks/Mono.framework/Headers,/usr/local/Cellar/harfbuzz/1.7.6/include/harfbuzz);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/radvani/Source/ViroFreetype/ios/build-mac";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		F19BF825A613443EBD637485 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/radvani/Source/ViroFreetype/ios/build-mac/include","/Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include",/Library/Frameworks/Mono.framework/Headers,/usr/local/Cellar/harfbuzz/1.7.6/include/harfbuzz);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/radvani/Source/ViroFreetype/ios/build-mac";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		FC7353AF285F4A81B522C3A0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/radvani/Source/ViroFreetype/ios/build-mac/include","/Users/radvani/Source/ViroFreetype/ios/freetype-2.9/include",/Library/Frameworks/Mono.framework/Headers,/usr/local/Cellar/harfbuzz/1.7.6/include/harfbuzz);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/radvani/Source/ViroFreetype/ios/build-mac";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		020222826483444BBFAF611E /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31415A2690F14E6F8965BEB8 /* Debug */,
+				EFDB330FA7874D7E910D6C63 /* Release */,
+				3150492CCED940C7B1D1D7E4 /* MinSizeRel */,
+				3D1AEA8FB62C4CB79D5E96FF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		41499103FDC34225A2D5BA7A /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CE39B9A648E45B386AB5F77 /* Debug */,
+				D6E2FB8EE788449EB999A5BB /* Release */,
+				FC7353AF285F4A81B522C3A0 /* MinSizeRel */,
+				048855801E18455A9E33EBC1 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		496E0790212047E6A7C9D64C /* Build configuration list for PBXProject "freetype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D41465600704B34B5F63870 /* Debug */,
+				05BC951C303848FEAE4FDEA2 /* Release */,
+				94B99B2CB2E54C87A20B260A /* MinSizeRel */,
+				18147C72E8CA48AF902A1287 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9EF662341D774F11AE52C208 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF172B194F7A4ABF9F09532A /* Debug */,
+				0ED219744081409796C60D95 /* Release */,
+				89F0C4210DED49EF96432A88 /* MinSizeRel */,
+				F19BF825A613443EBD637485 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B9F93E65E9CB4634ABB7006C /* Build configuration list for PBXAggregateTarget "dist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97FCE7C5C3674E9DB0AFB061 /* Debug */,
+				3252D98CE2D64734BBB99BE8 /* Release */,
+				63BA081CABB54D55AC5226FC /* MinSizeRel */,
+				5723176CFC8D4A32B1AD22BF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D78B766B9154469F8AC28350 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32FF7A47143C43C9842449E5 /* Debug */,
+				3391E56144FE4EF2A8E41F0E /* Release */,
+				CAED4965BC47448BB4A40C1D /* MinSizeRel */,
+				2DF7B8839D74415BB8997871 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EBCC7C1941064FC2BF4A7744 /* Build configuration list for PBXNativeTarget "freetype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A90018150B5544ABA5000F79 /* Debug */,
+				9A8EBBAC028F4113A87BE9FB /* Release */,
+				45772D973A4A4CFBAB5D2F8A /* MinSizeRel */,
+				1CDC8EEA69804CB78AC12D57 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 579C0E7E68BE47379D288FF2 /* Project object */;
+}

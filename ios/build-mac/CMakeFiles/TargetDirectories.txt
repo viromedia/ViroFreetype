@@ -1,0 +1,6 @@
+/Users/radvani/Source/ViroFreetype/ios/build-mac/CMakeFiles/install.dir
+/Users/radvani/Source/ViroFreetype/ios/build-mac/CMakeFiles/package.dir
+/Users/radvani/Source/ViroFreetype/ios/build-mac/CMakeFiles/dist.dir
+/Users/radvani/Source/ViroFreetype/ios/build-mac/CMakeFiles/freetype.dir
+/Users/radvani/Source/ViroFreetype/ios/build-mac/CMakeFiles/ALL_BUILD.dir
+/Users/radvani/Source/ViroFreetype/ios/build-mac/CMakeFiles/ZERO_CHECK.dir
